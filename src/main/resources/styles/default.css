@@ -1,0 +1,30 @@
+*{
+    -fx-base: #EEE;
+}
+
+.tag {
+    -fx-font-size: 10;
+    -fx-padding: 2 8 2 8;
+    -fx-background-radius: 5;
+    -fx-background-color: #0002;
+}
+
+.toolbar {
+}
+
+.toolbar Button {
+    -fx-base: transparent;
+    -fx-pref-height: 30;
+    -fx-pref-width: 40;
+    -fx-padding: 0;
+    -fx-graphic-text-gap: 2;
+}
+
+.toolbar Button:hover{
+    -fx-base: #EEE;
+}
+
+ListView, TreeView, SplitPane, HBox, VBox {
+    -fx-background-color: transparent;
+}
+

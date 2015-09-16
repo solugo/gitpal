@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1">
+    <top>
+        <ToolBar styleClass="toolbar">
+            <Button fx:id="refreshButton" style="-fx-graphic: url('icon:refresh.svg?size=24');">
+                <tooltip>
+                    <Tooltip text="Refresh" />
+                </tooltip>
+            </Button>
+            <Separator />
+            <Button fx:id="pushButton" style="-fx-graphic: url('icon:push.svg?size=24');">
+                <tooltip>
+                    <Tooltip text="Push" />
+                </tooltip>
+            </Button>
+            <Button fx:id="pullButton" style="-fx-graphic: url('icon:pull.svg?size=24');">
+                <tooltip>
+                    <Tooltip text="Pull" />
+                </tooltip>
+            </Button>
+            <Button fx:id="fetchButton" style="-fx-graphic: url('icon:fetch.svg?size=24');">
+                <tooltip>
+                    <Tooltip text="Fetch" />
+                </tooltip>
+            </Button>
+        </ToolBar>
+    </top>
+    <center>
+        <ListView fx:id="listView" />
+    </center>
+</BorderPane>

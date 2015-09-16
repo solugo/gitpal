@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1">
+    <stylesheets>
+        <URL value="@/styles/default.css"/>
+    </stylesheets>
+    <center>
+        <VBox>
+            <TitledPane collapsible="false">
+                <text>Commit</text>
+                <content>
+                    <VBox spacing="5">
+                        <Label text="Author" />
+                        <HBox spacing="5">
+                            <TextField fx:id="commitAuthorName" HBox.hgrow="ALWAYS" />
+                            <Label>&lt;</Label>
+                            <TextField fx:id="commitAuthorEmail" HBox.hgrow="ALWAYS" />
+                            <Label>&gt;</Label>
+                        </HBox>
+                        <Label text="Message" />
+                        <TextArea minHeight="100" HBox.hgrow="ALWAYS" fx:id="commitMessage" />
+                        <HBox alignment="CENTER_RIGHT">
+                            <Button text="commit" fx:id="commitButton" /> 
+                        </HBox> 
+                    </VBox>
+                </content>
+            </TitledPane>
+            <TitledPane collapsible="false" VBox.vgrow="ALWAYS">
+                <text>File</text>
+                <graphic>
+                    <CheckBox fx:id="listViewCheckBox" />
+                </graphic>
+                <content>
+                    <ListView fx:id="listView" prefHeight="10000" />
+                </content>
+            </TitledPane>
+        </VBox>
+    </center>
+</BorderPane>

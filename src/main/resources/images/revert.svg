@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- The icon can be used freely in both personal and commercial projects with no attribution required, but always appreciated. 
+You may NOT sub-license, resell, rent, redistribute or otherwise transfer the icon without express written permission from iconmonstr.com -->
+
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+<path id="trash-can-11-icon" d="M403.385,191.458c-14.525,79.737-37.924,187.856-47.062,236.749
+	c-36.188,45.058-165.662,45.058-201.85,0c-9.216-51.35-32.446-160.055-46.634-238.976
+	C180.847,225.742,328.129,226.529,403.385,191.458z M415.512,109.56c-11.999-11.465-35.457-21.217-65.959-27.831
+	c1.383,11.997-8.011,22.294-19.858,22.294h-147.25c-11.826,0-21.27-10.277-19.849-22.361c-30.653,6.615-54.233,16.395-66.272,27.898
+	c-11.387,10.88-8.92,14.636-4.211,38.658c53.277,50.681,264.469,52.997,326.865,4.182
+	C424.339,124.018,427.728,121.231,415.512,109.56z M182.444,84.022c15.465,0,28-18.546,28-34.022h91.25
+	c0,15.477,12.537,34.022,28,34.022H182.444z"/>
+</svg>
